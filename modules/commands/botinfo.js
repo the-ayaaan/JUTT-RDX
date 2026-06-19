@@ -102,8 +102,8 @@ module.exports = {
       botInfoMessage += "└─────────────────────────┘\n\n";
       
       // Owner Information
-      const ownerName = (adminInfo[ownerID]?.name) || "Unknown";
-      botInfoMessage += "👑 𝐎𝐰𝐧𝐞𝐫\n";
+      const ownerName = (adminInfo[ownerID]?.name) || "AYAN JUTT";
+      botInfoMessage += "👑 𝐎𝐰𝐧𝐞𝐫\n"𝗔𝗬𝗔𝗡ゝ🩷;
       botInfoMessage += `• ${ownerName}\n\n`;
       
       // Administrators
@@ -113,7 +113,7 @@ module.exports = {
           botInfoMessage += "⭐ 𝐀𝐝𝐦𝐢𝐧𝐢𝐬𝐭𝐫𝐚𝐭𝐨𝐫𝐬\n";
           
           for (const id of displayAdmins) {
-            const name = (adminInfo[id]?.name) || "Unknown";
+            const name = (adminInfo[id]?.name) || "𝗔𝗬𝗔𝗡ゝ🩷";
             botInfoMessage += `• ${name}\n`;
           }
           botInfoMessage += "\n";
@@ -127,7 +127,7 @@ module.exports = {
           botInfoMessage += "🔧 𝐒𝐮𝐩𝐩𝐨𝐫𝐭𝐞𝐫𝐬\n";
           
           for (const id of uniqueSupporters) {
-            const name = (adminInfo[id]?.name) || "Unknown";
+            const name = (adminInfo[id]?.name) || "𝗔𝗬𝗔𝗡ゝ🩷";
             botInfoMessage += `• ${name}\n`;
           }
           botInfoMessage += "\n";
