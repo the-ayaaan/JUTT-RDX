@@ -59,7 +59,7 @@ module.exports = {
       // Show status for current thread
       const globalStatus = global.config.autosend?.enabled ? 'ON' : 'OFF';
       const interval = global.config.autosend?.checkIntervalMinutes || 1;
-      const istTime = new Date(new Date().toLocaleString("en-US", {timeZone: "Asia/Kolkata"}));
+      const istTime = new Date(new Date().toLocaleString("en-US", {timeZone: "Asia/Karachi"}));
       
       // Get thread-specific status
       let threadStatus = 'Following Global';
