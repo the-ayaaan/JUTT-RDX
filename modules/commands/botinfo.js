@@ -113,7 +113,7 @@ module.exports = {
           botInfoMessage += "⭐ 𝐀𝐝𝐦𝐢𝐧𝐢𝐬𝐭𝐫𝐚𝐭𝐨𝐫𝐬\n";
           
           for (const id of displayAdmins) {
-            const name = (adminInfo[id]?.name) || "𝗔𝗬𝗔𝗡ゝ🩷";
+            const name = (adminInfo[id]?.name) || "unknown";
             botInfoMessage += `• ${name}\n`;
           }
           botInfoMessage += "\n";
