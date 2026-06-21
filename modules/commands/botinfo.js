@@ -127,7 +127,7 @@ module.exports = {
           botInfoMessage += "🔧 𝐒𝐮𝐩𝐩𝐨𝐫𝐭𝐞𝐫𝐬\n";
           
           for (const id of uniqueSupporters) {
-            const name = (adminInfo[id]?.name) || "𝗔𝗬𝗔𝗡ゝ🩷";
+            const name = (adminInfo[id]?.name) || "unknown";
             botInfoMessage += `• ${name}\n`;
           }
           botInfoMessage += "\n";
