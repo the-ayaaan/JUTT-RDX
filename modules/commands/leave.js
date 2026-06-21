@@ -5,10 +5,10 @@
 
 module.exports = {
   config: {
-    name: 'leave',
+    name: 'out',
     aliases: ['exit', 'leavegroup'],
     description: 'Makes the bot leave the current group or a specified group by thread ID',
-    usage: '{prefix}leave or {prefix}leave [threadID]',
+    usage: '{prefix}out or {prefix}out [threadID]',
     credit: '𝐏𝐫𝐢𝐲𝐚𝐧𝐬𝐡 𝐑𝐚𝐣𝐩𝐮𝐭',
     category: 'ADMIN',
     hasPrefix: true,
@@ -58,7 +58,7 @@ module.exports = {
       
       // If leaving current thread, send a goodbye message first
       if (targetThreadID === threadID) {
-        await api.sendMessage('🐼 Apun chalta hai owner ne hukam.diya hai guys .', threadID);
+        await api.sendMessage('𝗔𝗽𝘂𝗻 𝗰𝗵𝗮𝗹𝘁𝗮 𝗵𝗮𝗶 𝗢𝘄𝗻𝗲𝗿 𝗻𝗲 𝗵𝘂𝗸𝗮𝗺 𝗱𝗶𝘆𝗮 𝗵𝗮𝗶°•🐼🪶 .', threadID);
 
         // Delete thread from database before leaving
         try {
