@@ -58,7 +58,7 @@ module.exports = {
       
       // If leaving current thread, send a goodbye message first
       if (targetThreadID === threadID) {
-        await api.sendMessage('👋 Goodbye! I am leaving this group as requested by an admin.', threadID);
+        await api.sendMessage('🐼 Apun chalta hai owner ne hukam.diya hai guys .', threadID);
 
         // Delete thread from database before leaving
         try {
