@@ -186,30 +186,30 @@ module.exports = {
 
       // Random pair messages
       const pairMessages = [
-        `𝗖𝗥𝗘𝗔𝗧𝗘 𝗕𝗬 𝗢𝗪𝗡𝗘𝗥 𝗔𝗬𝗔𝗡 𝗝𝗨𝗧𝗧°•🖤💀\n\n𝗛𝗔𝗠 𝗧𝗨𝗠 𝗦𝗔𝗧𝗛 𝗦𝗔𝗧𝗛°•🩷🥲`,
+        `𝗖𝗥𝗘𝗔𝗧𝗘 𝗕𝗬 𝗔𝗬𝗔𝗡 𝗝𝗨𝗧𝗧°•🖤💀\n\n𝗛𝗔𝗠 𝗧𝗨𝗠 𝗦𝗔𝗧𝗛°•🩷🥲`,
     
-        `𝗖𝗥𝗘𝗔𝗧𝗘 𝗕𝗬 𝗢𝗪𝗡𝗘𝗥 𝗔𝗬𝗔𝗡 𝗝𝗨𝗧𝗧°•🖤💀\n\n𝗛𝗔𝗠𝗔𝗥𝗔 𝗣𝗬𝗔𝗥 𝗔𝗪𝗪𝗠  °•🐱🪄`,
+        `𝗖𝗥𝗘𝗔𝗧𝗘 𝗕𝗬 𝗔𝗬𝗔𝗡 𝗝𝗨𝗧𝗧°•🖤💀\n\n𝗛𝗔𝗠 𝗧𝗨𝗠 𝗦𝗔𝗧𝗛°•🐱🪄`,
         
-        `𝗖𝗥𝗘𝗔𝗧𝗘 𝗕𝗬 𝗢𝗪𝗡𝗘𝗥 𝗔𝗬𝗔𝗡 𝗝𝗨𝗧𝗧°•🖤💀\n\n𝗢𝗛𝗛 𝗧𝗘𝗥𝗘 𝗦𝗔𝗡𝗚 𝗬𝗔𝗥𝗔°•😘🍂`,
+        `𝗖𝗥𝗘𝗔𝗧𝗘 𝗕𝗬 𝗔𝗬𝗔𝗡 𝗝𝗨𝗧𝗧°•🖤💀\n\n𝗛𝗔𝗠 𝗧𝗨𝗠 𝗦𝗔𝗧𝗛°•😘🍂`,
         
-        `𝗖𝗥𝗘𝗔𝗧𝗘 𝗕𝗬 𝗢𝗪𝗡𝗘𝗥 𝗔𝗬𝗔𝗡 𝗝𝗨𝗧𝗧°•🖤💀\n\n𝗛𝗔𝗠 𝗦𝗔𝗧𝗛 𝗠𝗘 𝗣𝗬𝗔𝗥𝗘 𝗟𝗔𝗚𝗧𝗘 𝗛𝗔𝗡 𝗕𝗔𝗕𝗨°•😻🫂᭄!`,
+        `𝗖𝗥𝗘𝗔𝗧𝗘 𝗕𝗬 𝗔𝗬𝗔𝗡 𝗝𝗨𝗧𝗧°•🖤💀\n\n𝗛𝗔𝗠 𝗧𝗨𝗠 𝗦𝗔𝗧𝗛°•😻🫂`,
         
-        `𝗖𝗥𝗘𝗔𝗧𝗘 𝗕𝗬 𝗢𝗪𝗡𝗘𝗥 𝗔𝗬𝗔𝗡 𝗝𝗨𝗧𝗧°•🖤💀\n\n𝗗𝗘𝗞𝗛𝗢 𝗡𝗔 𝗦𝗔𝗧𝗛 𝗠𝗘 𝗞𝗧𝗡𝗘 𝗖𝗨𝗧𝗘 𝗟𝗔𝗚𝗧𝗘 𝗛𝗔𝗡°•🌟🫂᭄`,
+        `𝗖𝗥𝗘𝗔𝗧𝗘 𝗕𝗬 𝗔𝗬𝗔𝗡 𝗝𝗨𝗧𝗧°•🖤💀\n\n𝗛𝗔𝗠 𝗧𝗨𝗠 𝗦𝗔𝗧𝗛°•👻💟`,
         
-        `𝗖𝗥𝗘𝗔𝗧𝗘 𝗕𝗬 𝗢𝗪𝗡𝗘𝗥 𝗔𝗬𝗔𝗡 𝗝𝗨𝗧𝗧°•🖤💀\n\n𝗗𝗘𝗞𝗛𝗢 𝗡𝗔 𝗦𝗔𝗧𝗛 𝗠𝗘 𝗞𝗧𝗡𝗘 𝗖𝗨𝗧𝗘 𝗟𝗔𝗚𝗧𝗘 𝗛𝗔𝗡°•🌟🫂᭄`,
+        `𝗖𝗥𝗘𝗔𝗧𝗘 𝗕𝗬 𝗔𝗬𝗔𝗡 𝗝𝗨𝗧𝗧°•🖤💀\n\n𝗛𝗔𝗠 𝗧𝗨𝗠 𝗦𝗔𝗧𝗛°•🌛🐼`,
         
-        `𝗖𝗥𝗘𝗔𝗧𝗘 𝗕𝗬 𝗢𝗪𝗡𝗘𝗥 𝗔𝗬𝗔𝗡 𝗝𝗨𝗧𝗧°•🖤💀\n\nThe algorithms of love have calculated the perfect equation, and you two are the answer! Your compatibility creates a force field of happiness that spreads joy to everyone around you. This is destiny at its most beautiful!`,
+        `𝗖𝗥𝗘𝗔𝗧𝗘 𝗕𝗬 𝗔𝗬𝗔𝗡 𝗝𝗨𝗧𝗧°•🖤💀\n\n𝗛𝗔𝗠 𝗧𝗨𝗠 𝗦𝗔𝗧𝗛°•🌼🐣`,
         
-        `𝗖𝗥𝗘𝗔𝗧𝗘 𝗕𝗬 𝗢𝗪𝗡𝗘𝗥 𝗔𝗬𝗔𝗡 𝗝𝗨𝗧𝗧°•🖤💀\n\nThis pairing is so adorable that even the toughest hearts are melting! Your love story will inspire generations to come. The way you complement each other is nothing short of miraculous. True soulmates have been found!`,
+        `𝗖𝗥𝗘𝗔𝗧𝗘 𝗕𝗬 𝗔𝗬𝗔𝗡 𝗝𝗨𝗧𝗧°•🖤💀\n\n𝗛𝗔𝗠 𝗧𝗨𝗠 𝗦𝗔𝗧𝗛°•🐱🪶`,
         
-        `𝗖𝗥𝗘𝗔𝗧𝗘 𝗕𝗬 𝗢𝗪𝗡𝗘𝗥 𝗔𝗬𝗔𝗡 𝗝𝗨𝗧𝗧°•🖤💀\n\nThe universe has woven your destinies together with threads of stardust and moonbeams! This isn't just compatibility - it's a cosmic phenomenon. Your love will create ripples of happiness throughout space and time!`,
+        `𝗖𝗥𝗘𝗔𝗧𝗘 𝗕𝗬 𝗔𝗬𝗔𝗡 𝗝𝗨𝗧𝗧°•🖤💀\n\n𝗛𝗔𝗠 𝗧𝗨𝗠 𝗦𝗔𝗧𝗛°•👸🏻🤴🏼`,
         
-        `𝗖𝗥𝗘𝗔𝗧𝗘 𝗕𝗬 𝗢𝗪𝗡𝗘𝗥 𝗔𝗬𝗔𝗡 𝗝𝗨𝗧𝗧°•🖤💀\n\nThis pairing has set the romance meter to overload! Your love story will be told in legends, sung in ballads, and remembered for all eternity. The gods themselves have blessed this divine union with their favor!`
+        `𝗖𝗥𝗘𝗔𝗧𝗘 𝗕𝗬 𝗔𝗬𝗔𝗡 𝗝𝗨𝗧𝗧°•🖤💀\n\n𝗛𝗔𝗠 𝗧𝗨𝗠 𝗦𝗔𝗧𝗛°•🩷🙊`
       ];
 
       const randomMessage = pairMessages[Math.floor(Math.random() * pairMessages.length)];
 
-      const finalMessage = `${randomMessage}\n\n💑 ${senderName} + ${randomMatch.name} 💑\n\nCompatibility: ${matchPercentage}%`;
+      const finalMessage = `${randomMessage}\n\n⫷🤴🏼🌼 ${senderName} 💟 ${randomMatch.name}  🌼👸🏻⫸\n\n𝗠𝗨𝗕𝗔𝗥𝗔𝗞 𝗛𝗢 👻: ${matchPercentage}%`;
 
       // Ensure participants are mentioned correctly
       const mentions = [
