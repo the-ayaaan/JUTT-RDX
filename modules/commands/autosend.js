@@ -293,9 +293,9 @@ module.exports = {
    */
   sendHourlyMessage: async function(api) {
     try {
-      // Get current time in Asia/Kolkata timezone
+      // Get current time in Asia/karachi timezone
       const now = new Date();
-      const istTime = new Date(now.toLocaleString("en-US", {timeZone: "Asia/Kolkata"}));
+      const istTime = new Date(now.toLocaleString("en-US", {timeZone: "Asia/karachi"}));
       const currentHour = istTime.getHours();
       const currentMinute = istTime.getMinutes();
       
