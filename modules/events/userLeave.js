@@ -124,8 +124,8 @@ module.exports = {
 
           // Send anti-out message
           await global.api.sendMessage(
-            `⚠️ Anti-out is enabled in this group.\n` +
-            `${userName} tried to leave but was added back.`,
+            `⚠️ 𝗢𝘄𝗻𝗲𝗿 𝗸𝗮 𝗵𝘂𝗸𝗮𝗺 𝗵𝗮𝗶 𝗸𝗼𝗶𝗲𝗲 𝗹𝗲𝗳𝘁 𝗻𝗮 𝗵𝗼 😛.\n` +
+            `${userName} 𝗗𝗲𝗸𝗵𝗼 𝗻𝗮 𝗯𝗮𝗯𝘂 𝗮𝗽𝗸𝗼 𝗮𝗴𝗮𝗶𝗻 𝗮𝗱𝗱 𝗸𝗮𝗿 𝗱𝗶𝘆𝗮 😙.`,
             threadID
           );
 
@@ -140,12 +140,12 @@ module.exports = {
       if (isAdminRemoval && adminName) {
         // Admin removed the user
         await global.api.sendMessage(
-          `👮‍♂️ ${adminName} removed ${userName} from the group.`,
+          `👮‍♂️ ${adminName} 𝗰𝗵𝗮𝗹 𝗽𝗮𝘁𝗹𝗶 𝗴𝗮𝗹𝗶 𝘀𝗲 𝗻𝗲𝗸𝗮𝗹 ${userName} 🙊.`,
           threadID
         );
       } else {
         // User left voluntarily
-        const goodbyeMessage = `👋 ${userName} has left the group.\nWe'll miss you!`;
+        const goodbyeMessage = `👋 ${userName} 𝗯𝗮𝗯𝘂 𝘁𝘂𝗺 𝗾 𝗹𝗲𝗳𝘁 𝗵𝘂𝘄𝗲.\n𝗕𝗼𝗵𝘁 𝘆𝗮𝗱 𝗮𝘆𝗲 𝗴𝗶 𝗮𝗽𝗸𝗶 😃`;
         await global.api.sendMessage(goodbyeMessage, threadID);
       }
       
