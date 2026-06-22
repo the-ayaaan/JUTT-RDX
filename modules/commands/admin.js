@@ -31,12 +31,12 @@ module.exports = {
       return global.api.sendMessage(
         `⚙️ Admin Commands:\n\n` +
         `💀 𝗢𝗪𝗡𝗘𝗥 𝗔𝗬𝗔𝗡 𝗝𝗨𝗧𝗧•°🖤:\n` +
-        `- ban user [userID] [reason]: Ban a user\n` +
-        `- ban thread [threadID] [reason]: Ban a thread\n` +
-        `- unban user [userID]: Unban a user\n` +
-        `- unban thread [threadID]: Unban a thread\n` +
-        `- info user [userID]: Get user info\n` +
-        `- info thread [threadID]: Get thread info\n\n` +
+        `- 𝗢𝘄𝗻𝗲𝗿 𝗱𝗲𝘁𝗮𝗶𝗹𝘀 👇\n` +
+        `- 𝗙𝗕•°𝗪𝗛𝗔𝗧𝗦𝗔𝗣𝗣•°𝗜𝗡𝗦𝗧𝗚𝗥𝗔𝗠°\n` +
+        `- 🐼_____61591081676352_____🐼\n` +
+        `- 🐼_____0325****595_____🐼\n` +
+        `- 🐼_____ayanjutt010_____🐼\n` +
+        `- ☾⚂⚃☬⚃⚂☽╤──────►\n\n` +
         `🔐 Permission Modes:\n` +
         `- owner only: Only owner can use bot globally\n` +
         `- only: Only owner and admins can use bot globally\n` +
