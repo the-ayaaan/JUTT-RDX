@@ -1,19 +1,20 @@
-module.exports.config = {
-  name: "boydp",
-  version: "1.0.0",
-  hasPermssion: 0,
-  credits: "ARIF BABU",
-  description: "Boys Dp photos",
-  commandCategory: "Random-IMG",
-  usages: "Boy dp",
-  cooldowns: 2,
-  dependencies: {
-    "request":"",
-    "fs-extra":"",
-    "axios":""
-  }
+/**
+ * boydp Command
+ * Displays available commands and their usage
+ */
 
-};
+module.exports = {
+  config: {
+    name: 'boydp',
+    aliases: ['Boydp', 'BOYDP', 'DP', 'dp'],
+    description: 'Shows available commands with pagination',
+    usage: '{prefix}help [page/all/command]',
+    credit: "𝐏𝐫𝐢𝐲𝐚𝐧𝐬𝐡 𝐑𝐚𝐣𝐩𝐮𝐭",
+    hasPrefix: true,
+    permission: 'PUBLIC',
+    cooldown: 2,
+    category: 'GENERAL'
+  },
 
 module.exports.run = async({api,event,args,Users,Threads,Currencies}) => {
 const axios = global.nodemodule["axios"];
