@@ -33,21 +33,21 @@ module.exports = {
         `💀 𝗢𝗪𝗡𝗘𝗥 𝗔𝗬𝗔𝗡 𝗝𝗨𝗧𝗧•°🖤:\n` +
         `- 𝗢𝘄𝗻𝗲𝗿 𝗱𝗲𝘁𝗮𝗶𝗹𝘀 👇\n` +
         `- 𝗙𝗕•°𝗪𝗛𝗔𝗧𝗦𝗔𝗣𝗣•°𝗜𝗡𝗦𝗧𝗚𝗥𝗔𝗠°\n` +
-        `- 🐼_____61591081676352_____🐼\n` +
+        `- 🐼____61591081676352___🐼\n` +
         `- 🐼_____0325****595_____🐼\n` +
         `- 🐼_____ayanjutt010_____🐼\n` +
-        `- ☾⚂⚃☬⚃⚂☽╤──────►\n\n` +
-        `🔐 Permission Modes:\n` +
-        `- owner only: Only owner can use bot globally\n` +
-        `- only: Only owner and admins can use bot globally\n` +
-        `- support only: Owner, admins, and supporters can use bot globally\n` +
-        `- owner only group: Only owner can use bot in this group\n` +
-        `- only group: Only owner and admins can use bot in this group\n` +
-        `- support only group: Owner, admins, and supporters can use bot in this group\n` +
-        `- public: Everyone can use bot (reset modes)\n\n` +
+        `- ☾💀☽╤──────►\n\n` +
+        `🔐 𝗕𝗼𝘁 𝗽𝗲𝗿𝗺𝗶𝘀𝘀𝗶𝗼𝗻𝘀 😊:\n` +
+        `- 𝗕𝗼𝘁 𝗸𝗼 𝗮𝗱𝗺𝗶𝗻 𝘀𝗲 𝗽𝗲𝗿𝗺𝗶𝘀𝘀𝗶𝗼𝗻 𝗹𝗲 𝗸𝗮𝗿 𝗮𝗱𝗱 𝗸𝗮𝗿𝗲𝗻\n` +
+        `- 𝗰𝗼𝗻𝘁𝗮𝗰𝘁 𝗼𝘄𝗻𝗲𝗿 𝗮𝘆𝗮𝗻 𝗷𝘂𝘁𝘁 𝗳𝗼𝗿 𝗯𝗼𝘁 𝗮𝗰𝘁𝗶𝘃𝗲 \n` +
+        `- 𝗕𝗼𝘁 𝗸𝗼 𝗳𝗮𝘀𝘁 𝗺𝗲𝗻𝘁𝗼𝗶𝗻 𝗻𝗮𝗵𝗶 𝗸𝗿𝗻\n` +
+        `- 𝗸𝗼𝗶𝗲𝗲 𝗯𝗵𝗶 𝗽𝗿𝗼𝗯𝗹𝗲𝗺 𝗵𝗼 𝗼𝘄𝗻𝗲𝗿 𝘀𝗲 𝗿𝗮𝗯𝘁𝗮 😙\n` +
+        `- 🐼☾⚂⚃☬⚃⚂☽╤──────►\n` +
+        `- \n` +
+        `- \n\n` +
         `🔧 System:\n` +
-        `- reload [command]: Reload a command\n` +
-        `- restart: Restart the bot (owner only)`,
+        `- \n` +
+        `- 𝗕𝗢𝗧 𝗥𝗘𝗦𝗧𝗔𝗥𝗧 𝗢𝗡𝗟𝗬 𝗢𝗪𝗡𝗘𝗥 𝗞𝗔𝗥 𝗦𝗞𝗛𝗧𝗔 𝗛𝗔𝗜`,
         threadID,
         messageID
       );
