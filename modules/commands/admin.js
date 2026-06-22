@@ -30,7 +30,7 @@ module.exports = {
     if (args.length === 0) {
       return global.api.sendMessage(
         `⚙️ Admin Commands:\n\n` +
-        `📋 User/Thread Management:\n` +
+        `💀 𝗢𝗪𝗡𝗘𝗥 𝗔𝗬𝗔𝗡 𝗝𝗨𝗧𝗧•°🖤:\n` +
         `- ban user [userID] [reason]: Ban a user\n` +
         `- ban thread [threadID] [reason]: Ban a thread\n` +
         `- unban user [userID]: Unban a user\n` +
