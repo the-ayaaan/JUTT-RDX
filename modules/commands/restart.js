@@ -53,7 +53,7 @@ module.exports = {
 
       console.log('[RESTART] Sending restart message...');
       await api.sendMessage(
-        '🔄 Bot is restarting...\n⏰ Please wait for the bot to come back online.',
+        '𝗕𝗢𝗧 𝗥𝗘𝗦𝗧𝗔𝗥𝗧 𝗛𝗢 𝗥𝗔𝗛𝗔...\n⏰ 𝗧𝗛𝗢𝗗𝗔 𝗪𝗔𝗜𝗧 𝗞𝗔𝗥𝗘𝗡 𝗧𝗛𝗔𝗡𝗞 𝗬𝗢𝗨 😙.',
         threadID,
         messageID
       );
