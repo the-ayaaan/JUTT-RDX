@@ -122,8 +122,8 @@ async function enableAntiOut(api, threadID) {
     await thread.save();
     
     return api.sendMessage(
-      '✅ Anti-out feature has been enabled.\n' +
-      'Users who leave the group will be automatically added back.',
+      '𝗔𝗨𝗧𝗢 𝗔𝗗𝗗 𝗠𝗢𝗗𝗘 𝗢𝗡 𝗛𝗢 𝗚𝗬𝗔 😽.\n' +
+      '𝗮𝗯 𝗸𝗼𝗶𝗲 𝗯𝗵𝗶 𝗹𝗲𝗳𝘁 𝗵𝘂𝘄𝗮𝗮 𝗸𝗵𝗲𝗻𝗰𝗵 𝗸𝗮𝗿 𝘄𝗮𝗽𝘀 𝗹𝗮𝘆𝗮 𝗷𝗮𝘆𝗲 𝗴𝗮 😼.',
       threadID
     );
   } catch (error) {
