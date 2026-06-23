@@ -133,9 +133,9 @@ module.exports = {
 
           // Prepare message object
           const messageToSend = {
-            body: `📢 **NOTIFICATION FROM ADMIN**\n\n${notificationText}\n\n` +
-                  `⏰ Sent at: ${new Date().toLocaleString()}\n` +
-                  `🤖 Via: ${global.config.botName || 'Bot'}`
+            body: `『𝗢𝗪𝗡𝗘𝗥 𝗔𝗬𝗔𝗡 𝗝𝗨𝗧𝗧°•🐼』\n\n${notificationText}\n\n` +
+                  `⫷▇ロロロ❂❂❂ロロロ▇⫸}\n` +
+                  `『 ${global.config.botName || '⫘⫘⫘⫘⫘⫘⫘⫘』'}`
           };
 
           // Add media if available
