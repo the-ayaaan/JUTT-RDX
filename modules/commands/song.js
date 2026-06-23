@@ -137,3 +137,106 @@ module.exports.handleReply = async function ({ api, message, replyData }) {
                     Authorization: `Bearer ${apiKey}`,
                     "Content-Type": "application/json",
                 },
+            }
+        );
+
+        if (!response.data || !response.data.success || !response.data.data) {
+            api.unsendMessage(processingMsg.messageID);
+            return api.sendMessage("❌ Failed to generate download link.", threadID, messageID);
+        }
+
+        const { downloadUrl, title, filename } = response.data.data;
+        // Use video.title from search result as primary if API title is generic "YouTube Video"
+        let finalTitle = title;
+        if (!finalTitle || finalTitle === "YouTube Video" || finalTitle === "Unknown Title") {
+            finalTitle = video.title;
+        }
+
+        // Check file size
+        try {
+            const headResponse = await axios.head(downloadUrl);
+            const contentLength = headResponse.headers["content-length"];
+            if (contentLength && parseInt(contentLength) > 30 * 1024 * 1024) {
+                api.unsendMessage(processingMsg.messageID);
+                return api.sendMessage("❌ File size exceeds 30MB limit.", threadID, messageID);
+            }
+        } catch (headError) {
+            console.error("Error checking file size:", headError);
+        }
+
+        // Format views
+        const formattedViews = video.views ? new Intl.NumberFormat('en-US', { notation: "compact", compactDisplay: "short" }).format(video.views) : "N/A";
+
+        // Send info message
+        let infoMsg = `🎵 Title: ${finalTitle}\n`;
+        if (video.timestamp) infoMsg += `⏱ Duration: ${video.timestamp}\n`;
+        if (video.author && video.author.name) infoMsg += `👤 Artist: ${video.author.name}\n`;
+        if (video.views) infoMsg += `👀 Views: ${formattedViews}\n`;
+        if (video.ago) infoMsg += `📅 Uploaded: ${video.ago}\n`;
+        infoMsg += `🔗 Source: ${videoUrl}\n`;
+        infoMsg += `📥 Download Link: ${downloadUrl}\n`;
+        infoMsg += `⏳ Downloading...`;
+
+        api.sendMessage(infoMsg, threadID, () => {
+            api.unsendMessage(processingMsg.messageID);
+        });
+
+        // Download file
+        const tempDir = path.join(__dirname, "temp");
+        if (!fs.existsSync(tempDir)) {
+            fs.mkdirSync(tempDir, { recursive: true });
+        }
+
+        const safeFilename = (filename || `${Date.now()}.mp3`).replace(/[^a-zA-Z0-9.-]/g, "_");
+        const filePath = path.join(tempDir, safeFilename);
+
+        const writer = fs.createWriteStream(filePath);
+        const downloadResponse = await axios({
+            method: "GET",
+            url: downloadUrl,
+            responseType: "stream",
+        });
+
+        downloadResponse.data.pipe(writer);
+
+        writer.on("finish", () => {
+            // Verify file is not empty before sending
+            fs.stat(filePath, (statErr, stats) => {
+                if (statErr || !stats || stats.size === 0) {
+                    console.error("[song] Temp file is empty or unreadable, skipping send:", filePath, statErr);
+                    api.sendMessage("❌ Download failed (empty file). Please try again.", threadID, messageID);
+                    return fs.unlink(filePath, () => { });
+                }
+
+                // Send the file
+                api.sendMessage(
+                    {
+                        body: `🎧 ${finalTitle}`,
+                        attachment: fs.createReadStream(filePath),
+                    },
+                    threadID,
+                    (err) => {
+                        if (err) {
+                            console.error("Error sending file:", err);
+                            api.sendMessage("❌ Failed to send audio file.", threadID, messageID);
+                        }
+                        // Delete file after sending
+                        fs.unlink(filePath, (unlinkErr) => {
+                            if (unlinkErr) console.error("Error deleting temp file:", unlinkErr);
+                        });
+                    }
+                );
+            });
+        });
+
+        writer.on("error", (err) => {
+            console.error("Error downloading file:", err);
+            api.sendMessage("❌ Failed to download the file.", threadID, messageID);
+            fs.unlink(filePath, () => { });
+        });
+
+    } catch (error) {
+        console.error("Error in songv2 command:", error);
+        api.sendMessage("❌ An error occurred.", threadID, messageID);
+    }
+};
