@@ -74,7 +74,7 @@ async function sendReply({ api, message }) {
   const userName = profile.name || "User";
 
   return api.sendMessage({
-    body: `🥀${userName}😗, ${replyText}`,
+    body: `🐼『${userName}』😗, ${replyText}`,
     mentions: [{ tag: userName, id: senderID }]
   }, threadID, undefined, messageID);
 }
