@@ -239,8 +239,7 @@ async function sendLevelUpNotification(api, threadID, userID, rankupData) {
     fs.writeFileSync(pathImg, canvas.toBuffer());
 
     // Message Body
-    const msgBody = `🎉 𝗟𝗘𝗩𝗘𝗟 𝗨𝗣! 🎉\n\nCongratulations ${rankupData.name}!\nYou have reached Level ${rankupData.level}!\n\n💰 Bonus: ${rankupData.level * 100} coins\n🏦 Bank Capacity: ${rankupData.bankCapacity}`;
-
+    const msgBody = `𝗠𝗨𝗕𝗔𝗥𝗔𝗞 𝗛𝗢 😃\n\n𝗦𝘂𝗻𝗲 ${rankupData.name}!\n𝗔𝗽𝗻𝗲 𝗮𝗽𝗻𝗶 𝗹𝗶𝗳𝗲 𝗸𝗲  ${rankupData.😃 }!𝗭𝗮𝘆𝗮 𝗸𝗮𝗿 𝗱𝗲𝘆𝗲\n\n
     // Send
     await api.sendMessage({
       body: msgBody,
