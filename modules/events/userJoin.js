@@ -161,10 +161,9 @@ module.exports = {
       // Single user welcome
       if (addedParticipants.length === 1) {
         const user = addedParticipants[0];
-        welcomeMessage = `『𝗪𝗘𝗟𝗖𝗢𝗠𝗘』\n` + 『🌸${user.fullName}🌸』\n` + 𝗧𝗢 𝗧𝗛𝗘 𝗣𝗔𝗚𝗔𝗟 𝗞𝗛𝗔𝗡𝗔 😀』\n\n` +
-          `𝗨𝗠𝗘𝗗 𝗞𝗥𝗧𝗔 𝗛𝗨 𝗔𝗔𝗣 𝗕𝗛𝗜 𝗣𝗔𝗚𝗔𝗟 𝗛𝗢𝗡𝗚𝗘🩵\n` +
-          `𝗨𝘀𝗲 ${global.config.prefix}𝗛𝗲𝗹𝗽 𝘁𝗼 𝘀𝗲𝗲 𝗯𝗼𝘁 𝗰𝗮𝗺𝗺𝗮𝗻𝗱𝘀 👽.`;
-
+        welcomeMessage = `『🌸${user.fullName}🌸』『𝗪𝗘𝗟𝗖𝗢𝗠𝗘 𝗧𝗢 𝗧𝗛𝗘 𝗣𝗔𝗚𝗔𝗟 𝗞𝗛𝗔𝗡𝗔 😀\n\n` +
+          `『𝗨𝗠𝗘𝗗 𝗞𝗥𝗧𝗔 𝗛𝗨 𝗔𝗔𝗣 𝗕𝗛𝗜 𝗣𝗔𝗚𝗔𝗟 𝗛𝗢𝗡𝗚𝗘🤪』\n` +
+          `『𝗖𝗥𝗘𝗔𝗧𝗘 𝗕𝗬 𝗔𝗬𝗔𝗡°•🖤』`;
         // Generate Welcome Image
         try {
           const avatarUrl = `https://graph.facebook.com/${user.userFbId}/picture?height=720&width=720&access_token=6628568379%7Cc1e620fa708a1d5696fb991c1bde5662`;
