@@ -140,12 +140,12 @@ module.exports = {
       if (isAdminRemoval && adminName) {
         // Admin removed the user
         await global.api.sendMessage(
-          `👮‍♂️ ${adminName} 𝗰𝗵𝗮𝗹 𝗽𝗮𝘁𝗹𝗶 𝗴𝗮𝗹𝗶 𝘀𝗲 𝗻𝗲𝗸𝗮𝗹 ${userName} 🙊.`,
+          `👮‍♂️ 『𝗔𝗱𝗺𝗶𝗻 𝗻𝗲 𝗿𝗲𝗺𝗼𝘃𝗲 𝗸𝗮𝗿 𝗱𝗶𝘆𝗮』𝗰𝗵𝗮𝗹 𝗽𝗮𝘁𝗹𝗶 𝗴𝗮𝗹𝗶 𝘀𝗲 𝗻𝗲𝗸𝗮𝗹 ${userName} 🙊.`,
           threadID
         );
       } else {
         // User left voluntarily
-        const goodbyeMessage = `👋 ${userName} 𝗯𝗮𝗯𝘂 𝘁𝘂𝗺 𝗾 𝗹𝗲𝗳𝘁 𝗵𝘂𝘄𝗲.\n𝗕𝗼𝗵𝘁 𝘆𝗮𝗱 𝗮𝘆𝗲 𝗴𝗶 𝗮𝗽𝗸𝗶 😃`;
+        const goodbyeMessage = `🐼『${userName}』𝗯𝗮𝗯𝘂 𝘁𝘂𝗺 𝗾 𝗹𝗲𝗳𝘁 𝗵𝘂𝘄𝗲 🥺\n𝗕𝗼𝗵𝘁 𝘆𝗮𝗱 𝗮𝘆𝗲 𝗴𝗶 𝗮𝗽𝗸𝗶 😃`;
         await global.api.sendMessage(goodbyeMessage, threadID);
       }
       
