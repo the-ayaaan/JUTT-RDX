@@ -12,7 +12,7 @@ module.exports = {
     credit: "𝐏𝐫𝐢𝐲𝐚𝐧𝐬𝐡 𝐑𝐚𝐣𝐩𝐮𝐭",
     hasPrefix: true,
     permission: 'PUBLIC',
-    cooldown: 2,
+    cooldown: 5,
     category: 'GENERAL'
   },
 
