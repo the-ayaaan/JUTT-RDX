@@ -1,4 +1,9 @@
-module.exports.config = {
+/**
+ * hack Command
+ * Pranks hack 
+ */
+module.exports = {
+    config: {
   name: "hack",
   version: "1.0.0",
   hasPermssion: 0,
@@ -10,7 +15,7 @@ module.exports.config = {
         "axios": "",
         "fs-extra": ""
   },
-  cooldowns: 0
+  cooldowns: 5
 };
 
 module.exports.wrapText = (ctx, name, maxWidth) => {
