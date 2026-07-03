@@ -1,21 +1,16 @@
-/**
- * hack Command
- * Pranks hack 
- */
-module.exports = {
-    config: {
+module.exports.config = {
   name: "hack",
   version: "1.0.0",
   hasPermssion: 0,
-  credits: "𝐏𝐫𝐢𝐲𝐚𝐧𝐬𝐡 𝐑𝐚𝐣𝐩𝐮𝐭",
-  description: "hack",
-  commandCategory: "hack",
-  usages: "@mention",
+  credits: "ARIF BABU",
+  description: "THIS BOT WAS MADE BY MR ARIF BABU",
+  commandCategory: "APRIL FULL PRANK",
+  usages: "PREFIX",
   dependencies: {
         "axios": "",
         "fs-extra": ""
   },
-  cooldowns: 5
+  cooldowns: 0
 };
 
 module.exports.wrapText = (ctx, name, maxWidth) => {
