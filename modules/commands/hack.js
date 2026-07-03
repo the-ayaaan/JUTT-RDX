@@ -1,17 +1,3 @@
-module.exports.config = {
-  name: "hack",
-  version: "1.0.0",
-  hasPermssion: 0,
-  credits: "ARIF BABU",
-  description: "THIS BOT WAS MADE BY MR ARIF BABU",
-  commandCategory: "APRIL FULL PRANK",
-  usages: "PREFIX",
-  dependencies: {
-        "axios": "",
-        "fs-extra": ""
-  },
-  cooldowns: 0
-};
 
 module.exports.wrapText = (ctx, name, maxWidth) => {
 	return new Promise(resolve => {
