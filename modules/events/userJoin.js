@@ -161,8 +161,8 @@ module.exports = {
       // Single user welcome
       if (addedParticipants.length === 1) {
         const user = addedParticipants[0];
-        welcomeMessage = `『🌸${user.fullName}🌸』『𝗪𝗘𝗟𝗖𝗢𝗠𝗘 𝗧𝗢 𝗧𝗛𝗘 𝗣𝗔𝗚𝗔𝗟 𝗞𝗛𝗔𝗡𝗔 😀\n\n` +
-          `『𝗨𝗠𝗘𝗗 𝗞𝗥𝗧𝗔 𝗛𝗨 𝗔𝗔𝗣 𝗕𝗛𝗜 𝗣𝗔𝗚𝗔𝗟 𝗛𝗢𝗡𝗚𝗘🤪』\n` +
+        welcomeMessage = `『🌸${user.fullName}🌸』『𝘄𝗲𝗹𝗰𝗼𝗺𝗲 𝗵𝗼 𝗴𝘆𝗮 𝘄𝗮𝘁𝗮 𝗺𝗮𝗿 𝗸𝗲』\n\n` +
+          `『😼』\n` +
           `『𝗖𝗥𝗘𝗔𝗧𝗘 𝗕𝗬 𝗔𝗬𝗔𝗡°•🖤』`;
         // Generate Welcome Image
         try {
