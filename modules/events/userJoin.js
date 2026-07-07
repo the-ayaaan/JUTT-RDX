@@ -166,9 +166,9 @@ module.exports = {
           `『𝗖𝗥𝗘𝗔𝗧𝗘 𝗕𝗬 𝗔𝗬𝗔𝗡°•🖤』`;
         // Generate Welcome Image
         try {
-          const avatarUrl = `https://graph.facebook.com/${user.userFbId}/picture?height=720&width=720&access_token=6628568379%7Cc1e620fa708a1d5696fb991c1bde5662`;
+          const avatarUrl = `https://i.ibb.co/WWRt2Vsy/2b3439f71d76.gif`;
           const imageBuffer = await generateWelcomeImage(user.fullName, threadName, avatarUrl);
-          const imagePath = path.join(__dirname, `welcome_${user.userFbId}_${Date.now()}.png`);
+          const imagePath = path.join(__dirname, `welcome_${user.userFbId}_${Date.now()}.gif`);
           fs.writeFileSync(imagePath, imageBuffer);
           attachment.push(fs.createReadStream(imagePath));
 
