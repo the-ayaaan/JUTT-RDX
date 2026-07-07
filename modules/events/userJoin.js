@@ -165,13 +165,11 @@ module.exports = {
           `『😼』\n` +
           `『𝗖𝗥𝗘𝗔𝗧𝗘 𝗕𝗬 𝗔𝗬𝗔𝗡°•🖤』`;
         // Generate Welcome Image
-        try {
-          const avatarUrl = `https://i.ibb.co/WWRt2Vsy/2b3439f71d76.gif`;
-          const imageBuffer = await generateWelcomeImage(user.fullName, threadName, avatarUrl);
-          const imagePath = path.join(__dirname, `welcome_${user.userFbId}_${Date.now()}.gif`);
-          fs.writeFileSync(imagePath, imageBuffer);
-          attachment.push(fs.createReadStream(imagePath));
-
+        const GIF_URLS = [
+    'https://i.ibb.co/WWRt2Vsy/2b3439f71d76.gif',
+    'https://i.ibb.co/nNK2TX75/dc82e95aba67.gif',
+    'https://i.ibb.co/tMK00Qct/a008ff0dca24.gif'
+];
           // Cleanup after sending
           setTimeout(() => {
             if (fs.existsSync(imagePath)) fs.unlinkSync(imagePath);
