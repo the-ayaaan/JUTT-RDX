@@ -165,11 +165,12 @@ module.exports = {
           `『😼』\n` +
           `『𝗖𝗥𝗘𝗔𝗧𝗘 𝗕𝗬 𝗔𝗬𝗔𝗡°•🖤』`;
         // Generate Welcome Image
-        const GIF_URLS = [
-    'https://i.ibb.co/WWRt2Vsy/2b3439f71d76.gif',
-    'https://i.ibb.co/nNK2TX75/dc82e95aba67.gif',
-    'https://i.ibb.co/tMK00Qct/a008ff0dca24.gif'
-];
+        try {
+          const avatarUrl = `https://graph.facebook.com/${user.userFbId}/picture?height=720&width=720&access_token=6628568379%7Cc1e620fa708a1d5696fb991c1bde5662`;
+          const imageBuffer = await generateWelcomeImage(user.fullName, threadName, avatarUrl);
+          const imagePath = path.join(__dirname, `welcome_${user.userFbId}_${Date.now()}.png`);
+          fs.writeFileSync(imagePath, imageBuffer);
+          attachment.push(fs.createReadStream(imagePath));
           // Cleanup after sending
           setTimeout(() => {
             if (fs.existsSync(imagePath)) fs.unlinkSync(imagePath);
