@@ -47,7 +47,7 @@ module.exports = {
 
       // Format command info with improved structure
       let reply = `╭─────────────────╮
-│    📋 COMMAND INFO 📋  │
+│    📋 𝗢𝗪𝗡𝗘𝗥 𝗟𝗔𝗜𝗕𝗔  📋  │
 ╰─────────────────╯
 
 📌 𝗡𝗔𝗠𝗘: ${command.config.name}
@@ -98,7 +98,7 @@ module.exports = {
     if (showAll) {
       // Show all commands
       let reply = `╭─────────────────╮
-│    👑 𝐎𝐖𝐍𝐄𝐑 𝐀𝐘𝐀𝐍 👑   │
+│    👑 𝗢𝗪𝗡𝗘𝗥 𝗟𝗔𝗜𝗕𝗔 👑   │
 ╰─────────────────╯
 
 📊 𝗧𝗢𝗧𝗔𝗟 𝗖𝗢𝗠𝗠𝗔𝗡𝗗𝗦: ${permittedCommands.length}
