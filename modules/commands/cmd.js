@@ -7,7 +7,7 @@
 
 module.exports = {
   config: {
-    name: 'cmd',
+    name: 'Ayan kon hai',
     aliases: ['command', 'commands'],
     version: '1.0.0',
     credit: "𝐏𝐫𝐢𝐲𝐚𝐧𝐬𝐡 𝐑𝐚𝐣𝐩𝐮𝐭",
@@ -35,7 +35,7 @@ module.exports = {
     // Check if action is provided
     if (!args[0]) {
       return api.sendMessage(
-        `❌ Missing action parameter\n\nUsage: ${global.config.prefix}${this.config.usage.replace('{prefix}', '')}\n\nAvailable actions:\n- reload: Reload a command\n- disable: Disable a command\n- enable: Enable a command\n- list: List all commands\n\nExamples:\n${global.config.prefix}cmd reload ping\n${global.config.prefix}cmd disable work\n${global.config.prefix}cmd enable work\n${global.config.prefix}cmd list`,
+        `Ayan mera owner hai guys 🌸`,
         threadID,
         messageID
       );
