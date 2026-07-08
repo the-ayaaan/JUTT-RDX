@@ -318,7 +318,7 @@ function selectVideoLink(platform, videoInfo = {}) {
       const { username, id, title } = data;
       return {
         hdLink: data.video_url,
-        videoTitle: `--『 𝐏𝐫𝐢𝐲𝐚𝐧𝐬𝐡 🄱🄾🅃 』--\nHere's the Threads video you requested:\n\n👤 Username: ${username}\n🆔 ID: ${id}\n📝 Title: ${title}`
+        videoTitle: `--『𝗢𝗪𝗡𝗘𝗥 𝗔𝗬𝗔𝗡』--\n🫸𝗬𝗮 𝗿𝗮𝗵𝗮 𝗮𝗽𝗸𝗶 𝗹𝗶𝗻𝗲 𝘄𝗮𝗹𝗮 𝘃𝗶𝗱𝗲𝗼 😊:\n\n👤 Username: ${username}\n🆔 ID: ${id}\n📝 Title: ${title}`
       };
     }
     default:
