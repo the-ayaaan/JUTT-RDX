@@ -58,7 +58,7 @@ module.exports = {
       
       // If leaving current thread, send a goodbye message first
       if (targetThreadID === threadID) {
-        await api.sendMessage('𝗔𝗽𝘂𝗻 𝗰𝗵𝗮𝗹𝘁𝗮 𝗵𝗮𝗶 𝗢𝘄𝗻𝗲𝗿 𝗻𝗲 𝗵𝘂𝗸𝗮𝗺 𝗱𝗶𝘆𝗮 𝗵𝗮𝗶°•🐼🪶 .', threadID);
+        await api.sendMessage('𝗔𝗽𝘂𝗻 𝗰𝗵𝗮𝗹𝘁𝗮 𝗵𝗮𝗶 𝗢𝘄𝗻𝗲𝗿 𝗟𝗮𝗶𝗯𝗮 𝗱𝗼𝗻 𝗻𝗲 𝗵𝘂𝗸𝗮𝗺 𝗱𝗶𝘆𝗮 𝗵𝗮𝗶°•🐼🪶 .', threadID);
 
         // Delete thread from database before leaving
         try {
