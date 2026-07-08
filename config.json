@@ -1,15 +1,15 @@
 {
   "mongoURI": "mongodb+srv://crussh45_db_user:crush7890@cluster0.mbmeln9.mongodb.net/?appName=Cluster0",
-  "ownerID": "61591807887778",
+  "ownerID": "61591533960444",
   "adminIDs": [
-    "61591807887778",
+    "61591533960444",
     "ADMIN_ID_2"
   ],
   "supportIDs": [
-    "61591807887778",
+    "61591533960444",
     "SUPPORT_ID_2"
   ],
-  "adminInboxThreadID": "61591807887778",
+  "adminInboxThreadID": "61591533960444",
   "prefix": ".",
   "fcaOptions": {
     "forceLogin": false,
@@ -24,7 +24,7 @@
     "autoReconnect": true,
     "userAgent": "Mozilla/5.0 (X11; Linux aarch64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36 CrKey/1.54.250320"
   },
-  "botNickname": "°𝗖𝗥𝗔𝗭𝗬『😽』",
+  "botNickname": "°𝗖𝗥𝗔𝗭𝗬 👸",
   "commandEnabled": true,
   "eventEnabled": true,
   "announceImageChange": true,
