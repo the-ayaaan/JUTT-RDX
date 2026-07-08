@@ -276,21 +276,21 @@ function selectVideoLink(platform, videoInfo = {}) {
       }
       return {
         hdLink,
-        videoTitle: "--『𝗢𝗪𝗡𝗘𝗥 𝗔𝗬𝗔𝗡』--\n🫸𝗬𝗮 𝗿𝗮𝗵𝗮 𝗮𝗽𝗸𝗶 𝗹𝗶𝗻𝗲 𝘄𝗮𝗹𝗮 𝘃𝗶𝗱𝗲𝗼 😊:"
+        videoTitle: "--『𝗢𝗪𝗡𝗘𝗥 𝗔𝗬𝗔𝗡』--\n🫸𝗬𝗮 𝗿𝗮𝗵𝗮 𝗮𝗽𝗸𝗶 𝗹𝗶𝗻𝗸 𝘄𝗮𝗹𝗮 𝘃𝗶𝗱𝗲𝗼 😊:"
       };
     }
     case 'instagram':
       return videoInfo.video
         ? {
             hdLink: videoInfo.video,
-            videoTitle: "--『𝗢𝗪𝗡𝗘𝗥 𝗔𝗬𝗔𝗡』--\n🫸𝗬𝗮 𝗿𝗮𝗵𝗮 𝗮𝗽𝗸𝗶 𝗹𝗶𝗻𝗲 𝘄𝗮𝗹𝗮 𝘃𝗶𝗱𝗲𝗼 😊:"
+            videoTitle: "--『𝗢𝗪𝗡𝗘𝗥 𝗔𝗬𝗔𝗡』--\n🫸𝗬𝗮 𝗿𝗮𝗵𝗮 𝗮𝗽𝗸𝗶 𝗹𝗶𝗻𝗸 𝘄𝗮𝗹𝗮 𝘃𝗶𝗱𝗲𝗼 😊:"
           }
         : { errorMessage: "❌ Could not find a downloadable Instagram video link." };
     case 'tiktok':
       return videoInfo.video
         ? {
             hdLink: videoInfo.video,
-            videoTitle: "--『𝗢𝗪𝗡𝗘𝗥 𝗔𝗬𝗔𝗡』--\n🫸𝗬𝗮 𝗿𝗮𝗵𝗮 𝗮𝗽𝗸𝗶 𝗹𝗶𝗻𝗲 𝘄𝗮𝗹𝗮 𝘃𝗶𝗱𝗲𝗼 😊:"
+            videoTitle: "--『𝗢𝗪𝗡𝗘𝗥 𝗔𝗬𝗔𝗡』--\n🫸𝗬𝗮 𝗿𝗮𝗵𝗮 𝗮𝗽𝗸𝗶 𝗹𝗶𝗻𝗸 𝘄𝗮𝗹𝗮 𝘃𝗶𝗱𝗲𝗼 😊:"
           }
         : { errorMessage: "❌ Could not find a downloadable TikTok video link." };
     case 'twitter': {
@@ -307,7 +307,7 @@ function selectVideoLink(platform, videoInfo = {}) {
       const sorted = [...videos].sort((a, b) => pickPriority(a.resolution) - pickPriority(b.resolution));
       return {
         hdLink: sorted[0].url,
-        videoTitle: "--『𝗢𝗪𝗡𝗘𝗥 𝗔𝗬𝗔𝗡』--\n🫸𝗬𝗮 𝗿𝗮𝗵𝗮 𝗮𝗽𝗸𝗶 𝗹𝗶𝗻𝗲 𝘄𝗮𝗹𝗮 𝘃𝗶𝗱𝗲𝗼 😊:"
+        videoTitle: "--『𝗢𝗪𝗡𝗘𝗥 𝗔𝗬𝗔𝗡』--\n🫸𝗬𝗮 𝗿𝗮𝗵𝗮 𝗮𝗽𝗸𝗶 𝗹𝗶𝗻𝗸 𝘄𝗮𝗹𝗮 𝘃𝗶𝗱𝗲𝗼 😊:"
       };
     }
     case 'threads': {
@@ -318,7 +318,7 @@ function selectVideoLink(platform, videoInfo = {}) {
       const { username, id, title } = data;
       return {
         hdLink: data.video_url,
-        videoTitle: `--『𝗢𝗪𝗡𝗘𝗥 𝗔𝗬𝗔𝗡』--\n🫸𝗬𝗮 𝗿𝗮𝗵𝗮 𝗮𝗽𝗸𝗶 𝗹𝗶𝗻𝗲 𝘄𝗮𝗹𝗮 𝘃𝗶𝗱𝗲𝗼 😊:\n\n👤 Username: ${username}\n🆔 ID: ${id}\n📝 Title: ${title}`
+        videoTitle: `--『𝗢𝗪𝗡𝗘𝗥 𝗔𝗬𝗔𝗡』--\n🫸𝗬𝗮 𝗿𝗮𝗵𝗮 𝗮𝗽𝗸𝗶 𝗹𝗶𝗻𝗸 𝘄𝗮𝗹𝗮 𝘃𝗶𝗱𝗲𝗼 😊:\n\n👤 Username: ${username}\n🆔 ID: ${id}\n📝 Title: ${title}`
       };
     }
     default:
