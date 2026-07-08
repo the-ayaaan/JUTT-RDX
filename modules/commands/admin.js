@@ -30,7 +30,7 @@ module.exports = {
     if (args.length === 0) {
       return global.api.sendMessage(
         `⚙️ Admin Commands:\n\n` +
-        `💀 𝗢𝗪𝗡𝗘𝗥 𝗔𝗬𝗔𝗡•°🖤:\n` +
+        `💀 𝗢𝗪𝗡𝗘𝗥 𝗟𝗔𝗜𝗕𝗔•°🖤:\n` +
         `- 𝗢𝘄𝗻𝗲𝗿 𝗱𝗲𝘁𝗮𝗶𝗹𝘀 👇\n` +
         `- 𝗙𝗕•°𝗪𝗛𝗔𝗧𝗦𝗔𝗣𝗣•°𝗜𝗡𝗦𝗧𝗚𝗥𝗔𝗠°\n` +
         `- 🐼____61591807887778___🐼\n` +
