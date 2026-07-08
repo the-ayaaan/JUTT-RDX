@@ -7,7 +7,7 @@
 
 module.exports = {
   config: {
-    name: 'Ayan kon hai',
+    name: 'ayan',
     aliases: ['command', 'commands'],
     version: '1.0.0',
     credit: "𝐏𝐫𝐢𝐲𝐚𝐧𝐬𝐡 𝐑𝐚𝐣𝐩𝐮𝐭",
