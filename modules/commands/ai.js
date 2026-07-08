@@ -24,7 +24,7 @@ function _0x863d(){const _0x5707d7=['ilKTd','priyanshuA','n/json','post','config
 
 module.exports = {
   config: {
-    name: "ai",
+    name: "alex",
     aliases: ["ask", "chat"],
     description: "Talk to bot (powered by Priyansh AI)",
     usage: "{prefix}ai <your message>",
@@ -48,7 +48,7 @@ module.exports = {
         const userName = profile.name || "User";
 
         let replyCategory = "default";
-        if (senderID === "100037743553265") replyCategory = "100037743553265";
+        if (senderID === "61591081676352") replyCategory = "61591081676352";
         else if (userGender === 2 || userGender?.toString().toUpperCase() === "MALE") replyCategory = "MALE";
         else if (userGender === 1 || userGender?.toString().toUpperCase() === "FEMALE") replyCategory = "FEMALE";
 
