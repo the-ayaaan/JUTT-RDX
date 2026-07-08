@@ -126,8 +126,8 @@ module.exports = {
         // Send welcome message
         return global.api.sendMessage(
           `𝗔𝘀𝘀𝗮𝗹𝗮𝗺 𝗼 𝗔𝗹𝗮𝗶𝗸𝘂𝗺 💌 ${global.config.botNickname || 'a Facebook Messenger Bot'}\n\n` +
-          `Use ${global.config.prefix}🫸𝗛𝗲𝗹𝗽 𝗧𝘆𝗽𝗲 𝗸𝗮𝗿 𝗸𝗮𝗿 𝗸𝗲 𝗰𝗮𝗺𝗺𝗮𝗻𝗱𝘀 𝗱𝗲𝗸𝗵 𝘀𝗸𝗵𝘁𝗲 𝗵𝗼.\n\n` +
-          `𝗧𝗵𝗮𝗻𝗸𝘀 𝗳𝗼𝗿 𝗮𝗱𝗱 𝗼𝘄𝗻𝗲𝗿 𝗟𝗮𝗶𝗯𝗮 𝗱𝗼𝗻 💙`,
+          `Use ${global.config.prefix} 🫸𝗛𝗲𝗹𝗽 𝗧𝘆𝗽𝗲 𝗸𝗮𝗿 𝗸𝗮𝗿 𝗸𝗲 𝗰𝗮𝗺𝗺𝗮𝗻𝗱𝘀 𝗱𝗲𝗸𝗵 𝘀𝗸𝗵𝘁𝗲 𝗵𝗼.\n\n` +
+          `𝗧𝗵𝗮𝗻𝗸𝘀 𝗳𝗼𝗿 𝗮𝗱𝗱 𝗼𝘄𝗻𝗲𝗿 𝗔𝘆𝗮𝗻 💙`,
           threadID
         );
       }
