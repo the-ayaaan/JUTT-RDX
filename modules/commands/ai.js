@@ -3,7 +3,7 @@ const fs = require("fs");
 const path = require("path");
 const { resolveUserProfile } = global.gender || require("../../utils/gender");
 
-const API_URL = "https://priyanshuapi.xyz/api/runner/priyanshu-ai";
+const API_URL = "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";
 const HISTORY_FILE = path.join(__dirname, "temporary", "ai_history.json");
 const HISTORY_LIMIT = 8;
 const DEFAULT_PERSONA = "friendly";
