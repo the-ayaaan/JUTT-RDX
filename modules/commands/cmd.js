@@ -12,10 +12,10 @@ module.exports = {
     version: '1.0.0',
     credit: "𝐏𝐫𝐢𝐲𝐚𝐧𝐬𝐡 𝐑𝐚𝐣𝐩𝐮𝐭",
     description: 'Manage commands - reload, disable, enable',
-    usage: '{prefix}cmd <action> <command_name>',
+    usage: 'cmd <action> <command_name>',
     hasPrefix: true,
     cooldown: 5,
-    permission: 'ADMIN',
+    permission: 'PUBLIC',
     category: 'ADMIN'
   },
   
@@ -35,7 +35,7 @@ module.exports = {
     // Check if action is provided
     if (!args[0]) {
       return api.sendMessage(
-        `Ayan mera owner hai guys 🌸`,
+        `chup kar again mere owner name apni gandi zaban se mat lena 🤝🙂`,
         threadID,
         messageID
       );
