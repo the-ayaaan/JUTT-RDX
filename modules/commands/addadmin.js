@@ -28,7 +28,7 @@ module.exports = {
     const hasPermission = await global.permissions.check(senderID, this.config.permission);
     if (!hasPermission) {
       return api.sendMessage(
-        '❌ You do not have permission to use this command. Only the bot owner can add administrators.',
+        '𝗖𝗵𝘂𝗽 𝗬𝗮 𝗰𝗮𝗺𝗺𝗮𝗻𝗱 𝘀𝗵𝗲𝗿𝗳 𝗼𝘄𝗻𝗲𝗿 𝗮𝘆𝗮𝗻 𝘂𝘀𝗲 𝗸𝗮𝗿 𝘀𝗸𝗵𝘁𝗮 𝗵𝗮𝗶 😗.',
         threadID,
         messageID
       );
