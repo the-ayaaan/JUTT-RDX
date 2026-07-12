@@ -29,7 +29,7 @@ module.exports = {
     // Check if user has admin permission
     const isAdmin = await global.permissions.checkPermission(senderID, 'ADMIN');
     if (!isAdmin) {
-      return api.sendMessage('❌ You need ADMIN permission to use this command.', threadID, messageID);
+      return api.sendMessage('Sorry apko ya cammand use krne ki permission nahi 🌸😕.', threadID, messageID);
     }
     
     // Check if this is a group chat
