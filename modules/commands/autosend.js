@@ -413,7 +413,7 @@ module.exports = {
       }
 
       const imageFiles = fs.readdirSync(imageFolderPath)
-        .filter(file => /\.(jpg|jpeg|png|gif|webp)$/i.test(file));
+        .filter(file => /\.(jpg|jpeg|png|mp4|gif|webp)$/i.test(file));
       
       if (imageFiles.length === 0) {
         global.logger.warn('No images found in autosend folder: ' + imageFolderPath);
