@@ -50,9 +50,9 @@ module.exports = {
          
          // Check if nickname was set or removed 
          if (nickname) { 
-           message = `👤 ${userName}'𝗡𝗲 𝗮𝗽𝗻𝗮 𝗽𝘆𝗮𝗿𝗮 𝗻𝗶𝗰𝗸𝗻𝗮𝗺𝗲 𝘀𝗲𝘁 𝗸𝗶𝘆𝗮 𝗵𝗮𝗶 🔏 "${nickname}"`; 
+           message = `『${userName}』𝗡𝗲 𝗮𝗽𝗻𝗮 𝗽𝘆𝗮𝗿𝗮 𝗻𝗶𝗰𝗸𝗻𝗮𝗺𝗲 𝘀𝗲𝘁 𝗸𝗶𝘆𝗮 𝗵𝗮𝗶 🔏 "${nickname}"`; 
          } else { 
-           message = `👤 ${userName}'𝗡𝗲 𝗮𝗽𝗻𝗮 𝗻𝗶𝗰𝗸𝗻𝗮𝗺𝗲 𝗵𝗮𝘁𝗮 𝗱𝗶𝘆𝗮 😝`; 
+           message = `『${userName}』𝗡𝗲 𝗮𝗽𝗻𝗮 𝗻𝗶𝗰𝗸𝗻𝗮𝗺𝗲 𝗵𝗮𝘁𝗮 𝗱𝗶𝘆𝗮 😝`; 
          }
          
          // Check if antichange is enabled for this thread
